@@ -12,11 +12,11 @@ const { Header, Content, Footer, Sider } = Layout;
 
 const items: MenuProps["items"] = [
   {
-    key: "1",
+    key: "Dashboard",
     label: "Dashboard",
   },
   {
-    key: "2",
+    key: "User Management",
     label: "User Management",
     children: [
       {
