@@ -4,7 +4,7 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
-import { AdminPaths, AdminRoutes } from "./admin.routes";
+import { AdminPaths } from "./admin.routes";
 import { routesGenerator } from "../utils/routesGenerator";
 
 const router = createBrowserRouter([
