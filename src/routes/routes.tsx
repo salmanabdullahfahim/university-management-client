@@ -7,7 +7,7 @@ import Register from "../pages/Register";
 import { AdminPaths } from "./admin.routes";
 import { routesGenerator } from "../utils/routesGenerator";
 
-import { StudentPaths } from "./student.route";
+import { StudentPaths } from "./student.routes";
 import { FacultyPaths } from "./faculty.routes";
 
 const router = createBrowserRouter([

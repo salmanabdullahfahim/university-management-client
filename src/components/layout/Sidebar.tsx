@@ -2,7 +2,7 @@ import { Layout, Menu } from "antd";
 import { sideBarItemsGenerator } from "../../utils/sidebarItemsGenerator";
 import { AdminPaths } from "../../routes/admin.routes";
 import { FacultyPaths } from "../../routes/faculty.routes";
-import { StudentPaths } from "../../routes/student.route";
+import { StudentPaths } from "../../routes/student.routes";
 import { selectCurrentUser } from "../../redux/features/auth/authSlice";
 import { useAppSelector } from "../../redux/hooks";
 
